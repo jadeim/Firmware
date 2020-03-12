@@ -57,7 +57,7 @@
 #endif
 
 #define STACK_LOW_WARNING_THRESHOLD 300 ///< if free stack space falls below this, print a warning
-#define FDS_LOW_WARNING_THRESHOLD 3 ///< if free file descriptors fall below this, print a warning
+#define FDS_LOW_WARNING_THRESHOLD 2 ///< if free file descriptors fall below this, print a warning
 
 namespace load_mon
 {
